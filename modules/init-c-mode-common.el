@@ -1,0 +1,15 @@
+;;(require 'init-ctags-update)
+
+(defun custom-c-mode-common-hook ()
+  (turn-on-ctags-auto-update-mode)
+  (abbrev-mode -1)
+  (setq-default c-basic-offset 4)
+  (setq tags-revert-without-query 1)  (c-set-offset 'innamespace '-)
+  (c-set-offset 'case-label '0)
+  (c-set-offset 'statement-case-open '0)
+  (c-set-offset 'arglist-intro '+)
+  (c-set-offset 'arglist-cont '+)
+  (c-set-offset 'statement-cont 'c-lineup-math))
+(add-hook 'c-mode-common-hook 'custom-c-mode-common-hook)
+
+(provide 'init-c-mode-common)
