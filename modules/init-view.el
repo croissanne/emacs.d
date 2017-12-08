@@ -1,6 +1,6 @@
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
-(subword-mode)
+(global-subword-mode)
 (show-paren-mode)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
