@@ -18,12 +18,14 @@
 
 (require 'init-ctags-update)
 
-(require 'init-c++-mode)
-
-(require 'init-c-mode-common)
-
 (require 'init-avy-mode)
 
 (require 'init-markdown-mode)
 
 (require 'init-undo-tree)
+
+(require 'init-company)
+
+(require 'init-c++-mode)
+
+(require 'init-c-mode-common)
