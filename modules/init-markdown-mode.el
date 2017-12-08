@@ -1,8 +1,8 @@
 (ensure-package 'markdown-mode)
 (ensure-package 'markdown-preview-mode)
 
-(defun custom-markdown-mode-hook ()
+(defun configure-markdown-mode ()
   (visual-line-mode))
-(add-hook 'markdown-mode-hook 'custom-markdown-mode-hook)
+(add-hook 'markdown-mode-hook 'configure-markdown-mode)
 
 (provide 'init-markdown-mode)
