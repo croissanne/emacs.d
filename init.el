@@ -29,3 +29,5 @@
 (require 'init-c++-mode)
 
 (require 'init-c-mode-common)
+
+(require 'init-groovy-mode)
