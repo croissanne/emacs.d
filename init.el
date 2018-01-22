@@ -31,3 +31,7 @@
 (require 'init-c-mode-common)
 
 (require 'init-groovy-mode)
+
+(require 'init-xkcd)
+
+;; Customize separator for easy add -p
