@@ -4,7 +4,7 @@
 (define-key custom-keymap  (kbd "M-/") 'company-complete)
 
 (global-company-mode)
-(setq company-idle-delay 0.05)
+(setq-default company-idle-delay 0.05)
 (delete 'company-clang company-backends)
 (add-to-list 'company-backends 'company-c-headers)
 
