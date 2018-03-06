@@ -8,8 +8,9 @@
 (setq-default column-number-mode t)
 (setq-default show-trailing-whitespace t)
 (setq-default indent-tabs-mode nil)
-(setq confirm-kill-emacs 'y-or-n-p)
+(setq-default confirm-kill-emacs 'y-or-n-p)
 (setq-default fill-column 80)
+(setq-default scroll-step 1)
 (add-hook 'term-mode-hook (lambda() (setq-local show-trailing-whitespace nil)))
 
 (provide 'init-view)
