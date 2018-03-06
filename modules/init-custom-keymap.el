@@ -3,6 +3,8 @@
 ;; editing
 (define-key custom-keymap (kbd "C-c C-u") 'uncomment-region)
 (define-key custom-keymap (kbd "C-c C-c") 'comment-region)
+(define-key custom-keymap (kbd "C-c r") 'replace-within-major-mode)
+(define-key custom-keymap (kbd "C-c C-r") 'find-file-replace)
 
 ;; finding files
 (define-key custom-keymap (kbd "C-c p") 'ff-find-other-file)
