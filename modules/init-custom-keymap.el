@@ -1,8 +1,15 @@
 (setq custom-keymap (make-sparse-keymap))
 
+;; editing
 (define-key custom-keymap (kbd "C-c C-u") 'uncomment-region)
 (define-key custom-keymap (kbd "C-c C-c") 'comment-region)
+
+;; finding files
 (define-key custom-keymap (kbd "C-c p") 'ff-find-other-file)
+(define-key custom-keymap (kbd "C-c C-s") 'grep-find)
+(define-key custom-keymap (kbd "C-c C-d") 'find-dired)
+
+;; movement
 (define-key custom-keymap (kbd "C-c C-p") 'pop-to-mark-command)
 (define-key custom-keymap (kbd "M-i") 'previous-line)
 (define-key custom-keymap (kbd "M-k") 'next-line)
