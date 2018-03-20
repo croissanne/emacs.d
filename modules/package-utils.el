@@ -10,11 +10,6 @@
 		    ,(concat (if no-ssl "http" "https")
 			     "://melpa.org/packages/")))
 
-;;(add-to-list 'package-archives (unless no-ssl (cons "gnu" "https://elpa.gnu.org/packages/")))
-
-(print package-archives)
-(package-initialize)
-
 ;; refresh package list
 (unless package-archive-contents (package-refresh-contents))
 
