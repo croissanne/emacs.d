@@ -35,4 +35,6 @@
 
 (require 'init-xkcd)
 
+(require 'init-git-timemachine)
+
 ;; Customize separator for easy add -p
