@@ -9,6 +9,8 @@
 ;; some custome functions
 (require 'custom-funcs)
 
+(require 'init-company)
+
 (require 'init-clang-format)
 
 (require 'init-diff-mode)
@@ -24,8 +26,6 @@
 (require 'init-markdown-mode)
 
 (require 'init-undo-tree)
-
-(require 'init-company)
 
 (require 'init-c++-mode)
 
