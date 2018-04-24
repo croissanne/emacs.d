@@ -68,6 +68,4 @@
       (confirm-replace-in-list from to file-list)
       (switch-to-buffer opened-buffer))))
 
-
-
 (provide 'custom-funcs)
