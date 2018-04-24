@@ -5,6 +5,7 @@
 (define-key custom-keymap (kbd "C-c C-c") 'comment-region)
 (define-key custom-keymap (kbd "C-c r") 'replace-within-major-mode)
 (define-key custom-keymap (kbd "C-c C-r") 'find-file-replace)
+(define-key custom-keymap (kbd "M-z") 'zap-up-to-char)
 
 ;; finding files
 (define-key custom-keymap (kbd "C-c p") 'ff-find-other-file)
