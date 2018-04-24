@@ -11,6 +11,7 @@
 (define-key custom-keymap (kbd "C-c p") 'ff-find-other-file)
 (define-key custom-keymap (kbd "C-c C-s") 'grep-find)
 (define-key custom-keymap (kbd "C-c C-d") 'find-dired)
+(define-key custom-keymap (kbd "C-x C-b") 'ibuffer)
 
 ;; movement
 (define-key custom-keymap (kbd "C-c C-p") 'pop-to-mark-command)
