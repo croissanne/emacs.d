@@ -11,6 +11,7 @@
 (setq-default confirm-kill-emacs 'y-or-n-p)
 (setq-default fill-column 80)
 (setq-default scroll-step 1)
+(setq-default require-final-newline t)
 (add-hook 'term-mode-hook (lambda() (setq-local show-trailing-whitespace nil)))
 
 (provide 'init-view)
