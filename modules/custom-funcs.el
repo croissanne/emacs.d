@@ -25,8 +25,13 @@
                (point) (match-end 0)
                (mark) nil)
               (cond
-               ((eq char 33) (replace-match to))
-               ((eq char 121) (replace-match to))
+               ;; search again to avoid side effects from read-char-choice
+               ((eq char 33) (progn
+                               (re-search-forward from nil t)
+                               (replace-match to)))
+               ((eq char 121)  (progn
+                                 (re-search-forward from nil t)
+                                 (replace-match to)))
                ((eq char 113)
                 (progn (if (and opened-last-file (not (buffer-modified-p)))
                            (kill-buffer))
