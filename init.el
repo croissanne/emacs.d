@@ -19,8 +19,6 @@
 
 (require 'init-view)
 
-(require 'init-ctags-update)
-
 (require 'init-avy-mode)
 
 (require 'init-markdown-mode)
