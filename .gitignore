@@ -3,3 +3,4 @@ elpa
 *.dat
 tramp
 xkcd
+custom.el
