@@ -1,3 +1,6 @@
+(setq custom-file "~/.emacs.d/custom.el")
+(load custom-file 'noerror)
+
 (add-to-list 'load-path (expand-file-name "modules" user-emacs-directory))
 
 ;; archive setup + utilities
@@ -38,5 +41,3 @@
 (require 'init-js-mode)
 
 (require 'init-git-timemachine)
-
-;; Customize separator for easy add -p
