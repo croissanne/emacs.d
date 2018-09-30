@@ -12,6 +12,7 @@
 (setq-default fill-column 80)
 (setq-default scroll-step 1)
 (setq-default require-final-newline t)
+(setq-default dired-listing-switches "-lah")
 (add-hook 'term-mode-hook (lambda() (setq-local show-trailing-whitespace nil)))
 
 (provide 'init-view)
