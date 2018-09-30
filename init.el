@@ -41,3 +41,5 @@
 (require 'init-js-mode)
 
 (require 'init-git-timemachine)
+
+(require 'init-xref)
