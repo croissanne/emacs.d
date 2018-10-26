@@ -5,6 +5,7 @@
 
 (global-company-mode)
 (setq-default company-idle-delay 0.05)
+(setq company-dabbrev-downcase nil)
 (delete 'company-clang company-backends)
 (add-to-list 'company-backends 'company-c-headers)
 
