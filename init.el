@@ -45,3 +45,5 @@
 (require 'init-xref)
 
 (require 'init-vala-mode)
+
+(require 'init-term-mode)
