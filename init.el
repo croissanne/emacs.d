@@ -43,3 +43,5 @@
 (require 'init-git-timemachine)
 
 (require 'init-xref)
+
+(require 'init-vala-mode)
