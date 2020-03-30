@@ -42,7 +42,7 @@
 
 (require 'init-xkcd)
 
-(require 'init-js-mode)
+(require 'init-rjsx-mode)
 
 (require 'init-git-timemachine)
 
