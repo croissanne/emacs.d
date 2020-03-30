@@ -51,3 +51,5 @@
 (require 'init-vala-mode)
 
 (require 'init-term-mode)
+
+(require 'init-go-mode)
