@@ -53,3 +53,5 @@
 (require 'init-term-mode)
 
 (require 'init-go-mode)
+
+(require 'init-emojify-mode)
