@@ -1,5 +1,3 @@
-(message "hi!")
-
 (setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
 
 (setq custom-file "~/.emacs.d/custom.el")
