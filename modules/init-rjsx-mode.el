@@ -2,6 +2,7 @@
 
 (setq js-indent-level 4)
 (setq sgml-basic-offset 4)
+(setq js-switch-indent-offset 4)
 
 (add-to-list 'auto-mode-alist '("\\.js\\'" . rjsx-mode))
 (add-to-list 'auto-mode-alist '("\\.es6\\'" . rjsx-mode))
