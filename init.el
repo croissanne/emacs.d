@@ -40,7 +40,7 @@
 
 (require 'init-xkcd)
 
-(require 'init-rjsx-mode)
+;; (require 'init-rjsx-mode)
 
 (require 'init-git-timemachine)
 
