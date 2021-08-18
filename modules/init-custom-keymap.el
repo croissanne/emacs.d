@@ -28,6 +28,7 @@
 (define-key custom-keymap (kbd "C-M-k") 'forward-paragraph)
 
 (define-minor-mode custom-keymap-mode
+  "Custom keymap"
   :init-value t
   :lighter " Keys "
   :keymap custom-keymap)
