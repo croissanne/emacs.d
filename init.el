@@ -54,5 +54,7 @@
 
 (require 'init-emojify-mode)
 
+(require 'init-yaml-mode)
+
 ;; open journal on startup
 (find-file "/home/sanne/workstuff/journal/journal")
