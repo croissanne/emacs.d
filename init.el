@@ -56,5 +56,7 @@
 
 (require 'init-yaml-mode)
 
+(require 'init-terraform-mode)
+
 ;; open journal on startup
 (find-file "/home/sanne/workstuff/journal/journal")
