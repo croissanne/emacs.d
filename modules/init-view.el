@@ -9,7 +9,7 @@
 (setq-default show-trailing-whitespace t)
 (setq-default indent-tabs-mode nil)
 (setq-default confirm-kill-emacs 'y-or-n-p)
-(setq-default fill-column 80)
+(setq-default fill-column 100)
 (setq-default require-final-newline t)
 (setq-default dired-listing-switches "-lah")
 (setq-default mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one line at a time
