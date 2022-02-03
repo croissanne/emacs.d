@@ -1,5 +1,13 @@
 (ensure-package 'company)
 (ensure-package 'company-c-headers)
+(ensure-package 'company-go)
+(ensure-package 'company-anaconda)
+(ensure-package 'company-ansible)
+(ensure-package 'company-emojify)
+(ensure-package 'company-shell)
+(ensure-package 'company-terraform)
+(ensure-package 'company-web)
+
 
 (define-key custom-keymap  (kbd "M-/") 'company-complete)
 
