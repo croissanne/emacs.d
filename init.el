@@ -55,5 +55,7 @@
 
 (require 'init-terraform-mode)
 
+(require 'init-json-mode)
+
 ;; open journal on startup
 (find-file "/home/sanne/workstuff/journal/journal")
