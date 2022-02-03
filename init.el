@@ -11,9 +11,6 @@
 ;; custom-keymap + custom-keymap-mode
 (require 'init-custom-keymap)
 
-;; some custome functions
-(require 'custom-funcs)
-
 (require 'init-company)
 
 (require 'init-clang-format)
