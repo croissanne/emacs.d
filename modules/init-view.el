@@ -8,6 +8,7 @@
 (setq-default column-number-mode t)
 (setq-default show-trailing-whitespace t)
 (setq-default indent-tabs-mode nil)
+(setq-default tab-bar-mode nil)
 (setq-default confirm-kill-emacs 'y-or-n-p)
 (setq-default fill-column 100)
 (setq-default require-final-newline t)
