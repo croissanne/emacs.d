@@ -5,7 +5,7 @@
   (setq sgml-basic-offset 2)
   (setq js-switch-indent-offset 4))
 
-(add-hook 'rjsx-mode-hook 'configure-rsjx-mode)
+(add-hook 'rjsx-mode-hook 'configure-rjsx-mode)
 
 (add-to-list 'auto-mode-alist '("\\.js\\'" . rjsx-mode))
 (add-to-list 'auto-mode-alist '("\\.es6\\'" . rjsx-mode))
