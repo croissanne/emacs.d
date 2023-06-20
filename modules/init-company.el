@@ -7,6 +7,7 @@
 (ensure-package 'company-shell)
 (ensure-package 'company-terraform)
 (ensure-package 'company-web)
+(ensure-package 'company-bibtex)
 
 
 (define-key custom-keymap  (kbd "M-/") 'company-complete)
@@ -16,6 +17,7 @@
 (setq-default company-dabbrev-downcase nil)
 (delete 'company-clang company-backends)
 (add-to-list 'company-backends 'company-c-headers)
+(add-to-list 'company-backends 'company-bibtex)
 
 ;; Example .dir-locals.el for qt5 projects for headers
 ;; ((c++-mode
