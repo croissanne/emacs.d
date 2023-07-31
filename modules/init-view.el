@@ -13,6 +13,7 @@
 (setq-default fill-column 100)
 (setq-default require-final-newline t)
 (setq-default dired-listing-switches "-lah")
+(setq-default ring-bell-function 'ignore) ;; disable audio notifications
 (setq-default mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one line at a time
 (setq-default mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling
 (setq-default mouse-wheel-follow-mouse 't) ;; scroll window under mouse
