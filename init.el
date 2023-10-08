@@ -57,5 +57,7 @@
 
 (require 'init-json-mode)
 
+(require 'init-latex-mode)
+
 ;; open journal on startup
 (find-file "/home/sanne/workstuff/journal")
