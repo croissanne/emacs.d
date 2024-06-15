@@ -8,6 +8,8 @@
 ;; archive setup + utilities
 (require 'package-utils)
 
+(ensure-package 'gnu-elpa-keyring-update)
+
 ;; custom-keymap + custom-keymap-mode
 (require 'init-custom-keymap)
 
