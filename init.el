@@ -61,5 +61,7 @@
 
 (require 'init-latex-mode)
 
+(require 'init-typescript-mode)
+
 ;; open journal on startup
 (find-file "/home/sanne/workstuff/journal")
