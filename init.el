@@ -65,5 +65,7 @@
 
 (require 'init-magit)
 
+(require 'init-langtool)
+
 ;; open journal on startup
 (find-file "/home/sanne/workstuff/journal")
