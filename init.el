@@ -63,5 +63,7 @@
 
 (require 'init-typescript-mode)
 
+(require 'init-magit)
+
 ;; open journal on startup
 (find-file "/home/sanne/workstuff/journal")
