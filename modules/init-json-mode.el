@@ -4,7 +4,8 @@
 (defun configure-json-mode ()
   (make-local-variable 'js-indent-level)
   (setq js-indent-level 2)
-  (yafolding-mode))
+  (yafolding-mode)
+  (eglot-ensure))
 
 (add-hook 'json-mode-hook 'configure-json-mode)
 (add-to-list 'auto-mode-alist '("\\.json\\'" . json-mode))
