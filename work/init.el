@@ -67,5 +67,7 @@
 
 (require 'init-langtool)
 
+(require 'init-org-mode)
+
 ;; open journal on startup
-(find-file "/home/sanne/workstuff/journal")
+;; (find-file "/home/sanne/workstuff/journal")
