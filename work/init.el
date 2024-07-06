@@ -1,6 +1,6 @@
 (setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
 
-(setq custom-file "~/.emacs.d/custom.el")
+(setq custom-file "~/.emacs.d/work/custom.el")
 (load custom-file 'noerror)
 
 (add-to-list 'load-path (expand-file-name "modules" user-emacs-directory))
