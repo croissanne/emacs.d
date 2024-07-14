@@ -4,6 +4,7 @@
 (load custom-file 'noerror)
 
 (add-to-list 'load-path (expand-file-name "modules" user-emacs-directory))
+(add-to-list 'load-path "~/.emacs.d/common/modules/")
 
 ;; archive setup + utilities
 (require 'package-utils)
