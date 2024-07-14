@@ -24,4 +24,7 @@
       '((:source "~/.authinfo.gpg")))
 (add-hook 'term-mode-hook (lambda() (setq-local show-trailing-whitespace nil)))
 
+(add-to-list 'custom-theme-load-path "~/.emacs.d/common/themes")
+(load-theme 'sanne t)
+
 (provide 'init-view)
