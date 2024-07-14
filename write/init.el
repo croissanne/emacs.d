@@ -25,8 +25,6 @@
 
 (require 'init-undo-tree)
 
-(require 'init-xref)
-
 (require 'init-yaml-mode)
 
 (require 'init-json-mode)
