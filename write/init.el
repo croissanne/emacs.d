@@ -35,3 +35,5 @@
 (require 'init-writeroom-mode)
 
 (require 'init-org-mode)
+
+(require 'init-flyspell-mode)
