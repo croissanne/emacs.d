@@ -32,4 +32,6 @@
 
 (require 'init-latex-mode)
 
+(require 'init-writeroom-mode)
+
 (require 'init-org-mode)
