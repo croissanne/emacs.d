@@ -70,5 +70,7 @@
 
 (require 'init-org-mode)
 
+(require 'init-python-mode)
+
 ;; open journal on startup
 ;; (find-file "/home/sanne/workstuff/journal")
