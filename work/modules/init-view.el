@@ -12,7 +12,7 @@
 (setq-default indent-tabs-mode nil)
 (setq-default tab-bar-mode nil)
 (setq-default confirm-kill-emacs 'y-or-n-p)
-(setq-default fill-column 110)
+(setq-default fill-column 120)
 (setq-default require-final-newline t)
 (setq-default dired-listing-switches "-lah")
 (setq-default ring-bell-function 'ignore) ;; disable audio notifications
