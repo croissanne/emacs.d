@@ -10,3 +10,5 @@ emojis
 url
 eln-cache
 projects
+.aider*
+work/modules/init-aider.el
