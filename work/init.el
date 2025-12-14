@@ -72,5 +72,7 @@
 
 (require 'init-python-mode)
 
+(require 'init-rust-mode)
+
 ;; open journal on startup
 ;; (find-file "/home/sanne/workstuff/journal")
