@@ -37,3 +37,5 @@
 (require 'init-org-mode)
 
 (require 'init-flyspell-mode)
+
+(require 'init-langtool)

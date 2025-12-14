@@ -23,9 +23,10 @@
 (setq-default epg-gpg-program "gpg2")
 (setq-default auth-sources
       '((:source "~/.authinfo.gpg")))
+(setq-default scroll-step 1 scroll-conservatively  10000)
 (add-hook 'term-mode-hook (lambda() (setq-local show-trailing-whitespace nil)))
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/common/themes")
-(load-theme 'sanne t)
+(load-theme 'tango-dark t)
 
 (provide 'init-view)
