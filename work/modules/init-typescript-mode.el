@@ -9,7 +9,8 @@
   (setq company-idle-delay 0.75)
   (setq flymake-no-changes-timeout 0.5)
   (yafolding-mode)
-  ('eglot-ensure))
+  ;; (eglot-ensure)
+  )
 
 (add-hook 'typescript-mode-hook 'configure-typescript-mode)
 
